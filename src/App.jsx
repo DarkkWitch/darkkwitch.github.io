@@ -1,8 +1,26 @@
 // src/App.js
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import './App.css';
+import Home from './pages/Home';
+import MagicPage from './pages/MagicPage';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/magic" element={<MagicPage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+function App() {
+  return (
+    
+
     <div>
       <header>
         <h1>Hello World!</h1>
@@ -37,6 +55,13 @@ function App() {
             słodka! W Zatoce Botnickiej zasolenie wynosi zaledwie 0,3%,
             a w Bałtyku Środkowym ok. 0,7% (dla porównania: w Oceanie Atlantyckim ponad 3%).
           </h4>
+        </div>
+
+        <div className="centered">
+          <h1>Witaj na mojej stronie React</h1>
+          <Link to="/magic">
+            <button className="btn">Zobacz coś fajnego</button>
+          </Link>
         </div>
       </main>
 
