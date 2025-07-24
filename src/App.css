@@ -1,0 +1,16 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    border: 2px dotted lightblue;
+    padding: 15px;
+}
+main h1{
+    color: aqua;
+}
