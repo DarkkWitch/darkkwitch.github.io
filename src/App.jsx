@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// src/App.js
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <header>
+        <h1>Hello World!</h1>
+        <h2>Jagoda</h2>
+      </header>
+
+      <main>
+        <aside>
+          <ol>
+            <li><a href="baltyk.html">Baltyk</a></li>
+            <li><a href="atlantyk.html">Atlantyk</a></li>
+            <li><a href="pacyfik.html">Pacyfik</a></li>
+          </ol>
+        </aside>
+
+        <div id="notka">
+          Widoczne nazwy po lewo to tak naprawde potoczne nazwy tych akwenów
+        </div>
+
+        <div id="blok1">
+          <h1>Batyk tak o</h1>
+          <h4>
+            Wciąż rosnące wyspy<br />
+            W niektórych rejonach, np. w Szwecji i Finlandii, w wyniku podnoszenia się lądu po 
+            zlodowaceniu pojawiają się nowe wyspy lub łączą się istniejące ziemia 
+            „wypiętrza się” nawet o 8 mm rocznie!
+          </h4>
+
+          <h4>
+            Morze prawie słodkowodne<br />
+            Bałtyk ma bardzo niskie zasolenie w niektórych miejscach woda jest prawie
+            słodka! W Zatoce Botnickiej zasolenie wynosi zaledwie 0,3%,
+            a w Bałtyku Środkowym ok. 0,7% (dla porównania: w Oceanie Atlantyckim ponad 3%).
+          </h4>
+        </div>
+      </main>
+
+      <footer>
+        taka o stronka c:
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;
