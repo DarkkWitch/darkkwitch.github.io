@@ -2,19 +2,17 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home';
-import MagicPage from './pages/MagicPage';
+import MagicPage from './pages/MagicPage'; //tu definiuje sciezke kierujaca
 import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/magic" element={<MagicPage />} />
+        <Route path="/magic" element={<MagicPage />} /> /
       </Routes>
     </Router>
-  );
+  ); //tu -/path=magic -uzywam zdefiniowanej sciezki na gorze
 }
 
 function App() {
