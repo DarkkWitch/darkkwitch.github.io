@@ -23,7 +23,7 @@ function App() {
         </div>
 
         <div id="blok1">
-          <h1>Batyk tak o</h1>
+          <h1>Baltyk tak o</h1>
           <h4>
             Wciąż rosnące wyspy<br />
             W niektórych rejonach, np. w Szwecji i Finlandii, w wyniku podnoszenia się lądu po 
