@@ -14,3 +14,40 @@ main{
 main h1{
     color: aqua;
 }
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.centered {
+  margin-top: 50px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #21a1f1;
+  color: white;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
